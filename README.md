@@ -21,5 +21,5 @@ Then Agglomerative clustering (to **7** clusters) was applied to tags embeddings
 In order to visualize the results [UMAP](https://arxiv.org/abs/1802.03426) dimensional reduction method was applied
 to first **50** Principal Components of tag embedding matrix. There is an image of clustering results below.
 
-
+![clustering image](img/clustering.png)
 
