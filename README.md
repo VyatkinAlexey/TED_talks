@@ -36,4 +36,9 @@ In order to transform text into features, we applied TF-IDF method (excliding al
 to all transcripts of TED talks. The method basically matchs text with adjusted word frequency from this text. 
 Despite strict filtering (each word should be found in text at least 4 times to be encountered) TF-IDF matrix is very sparse, as shown at plot.
 
+![sparse matrix](img/sparse_tf_idf.png)
 
+#### 3. Non-neural models
+
+As baseline solutions,  __Naive Bayes__ and __Logistic Regression__ models were used.
+Data was splitted to train and test in realtion to 1:2 preserving classes ratio. 
