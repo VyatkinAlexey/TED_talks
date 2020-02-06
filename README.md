@@ -26,6 +26,14 @@ to first **50** Principal Components of tag embedding matrix. Two-dimensional UM
 
 Although 2 clusters (__that__ and __sense__, purple and green on the image) were too broad (thus there were named by very common word, which is in the "center" of embedding space), that is why they were eliminated from further analysis. 
 
-Finally, we have **5** clusters and initial problem is to classify objects to 5 classes.
+Finally, we have **5** clusters and initial problem is to classify objects to 5 classes. Although, it should be noticed that classes are highly imbalanced, as shown on plot below.
 
-#### 2. 
+![cluster balance](img/clustering_count.png)
+
+#### 2. Feature extraction
+
+In order to transform text into features, we applied TF-IDF method (excliding all English stopwords) 
+to all transcripts of TED talks. The method basically matchs text with adjusted word frequency from this text. 
+Despite strict filtering (each word should be found in text at least 4 times to be encountered) TF-IDF matrix is very sparse, as shown at plot.
+
+
