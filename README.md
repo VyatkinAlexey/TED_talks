@@ -1,15 +1,15 @@
 # TED talks classification
 
-### Data
+## Data
 Data was collected from Kaggle, available by link: [data](https://www.kaggle.com/rounakbanik/ted-talks).
 
-### Problem statement
+## Problem statement
 Having 2550 records of TED talks, which consist of decription, full transcript and tags set build language model to predict 
 **tags** by **description** and **transcript**.
 
-### Project steps
+## Project steps
 
-#### 1. Tags clusterisation
+### 1. Tags clusterisation
 There are **416** unique labels in the dataset, which consists of 2550 records. 
 Thus it was necessary to reduce number of tags. As many of them are semantically close to each other, 
 clustering was based on words embeddings.
@@ -30,7 +30,7 @@ Finally, we have **5** clusters and initial problem is to classify objects to 5 
 
 ![cluster balance](img/clustering_count.png)
 
-#### 2. Feature extraction
+### 2. Feature extraction
 
 In order to transform text into features, we applied TF-IDF method (excliding all English stopwords) 
 to all transcripts of TED talks. The method basically matchs text with adjusted word frequency from this text. 
@@ -38,7 +38,22 @@ Despite strict filtering (each word should be found in text at least 4 times to 
 
 ![sparse matrix](img/sparse_tf_idf.png)
 
-#### 3. Non-neural models
+### 3. Non-neural models without undersampling
 
 As baseline solutions,  __Naive Bayes__ and __Logistic Regression__ models were used.
 Data was splitted to train and test in realtion to 1:2 preserving classes ratio. 
+
+
+#### a) Naive Bayes
+
+#### b) Logistic Regression
+
+### 4. Non-neural models with undersampling
+
+#### a) Naive Bayes
+
+#### b) Logistic Regression
+
+### 4. Deep Learning models
+
+### 5. Doc2Vec method
