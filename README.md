@@ -25,3 +25,7 @@ to first **50** Principal Components of tag embedding matrix. Two-dimensional UM
 ![clustering image](img/clustering.png)
 
 Although 2 clusters (__that__ and __sense__, purple and green on the image) were too broad (thus there were named by very common word, which is in the "center" of embedding space), that is why they were eliminated from further analysis. 
+
+Finally, we have **5** clusters and initial problem is to classify objects to 5 classes.
+
+#### 2. 
