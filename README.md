@@ -93,8 +93,18 @@ BERT model was trained with 10 epochs on trained data (data was splitted to trai
 
 ### 5. Doc2Vec method
 
-The last method, which is actually the most suitable for such type 
+The last method, which is actually the most suitable for such type. This method actually does document embedding in the same manner as word2vec model.
+
+We applied this method to all transcripts thereby obtain **50**-dimensional vectors corresponding to each text.
+
+Then we trained simple Logistic regression on this data and obtained results, which is comparable with BERT results by preformance (shown below).
+
+![doc2vec](img/LR_doc2vec.png)
 
 ## 6. Results
+
+Different methods were applied to solve TED talks texts classification problem. Best performance was achieved by BERT and doc2vec models. One of the main problem was lack of data, as 2500 objects is not enough for proper training deep models. Although, quite good performance was achieved. Accuracies of all methods are presented in the picture below.
+
+![results](img/results.png)
 
 
