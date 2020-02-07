@@ -64,10 +64,18 @@ The performance of the algorithms are presented below.
 
 #### a) Naive Bayes
 
-With balanced classes Naive Bayes approach works much better. The reason is the followng. Naive Bayes prediction is basically 
-$P(class | features) \cdot P(class)$.
+With balanced classes Naive Bayes approach works much better. The reason is the followng. Naive Bayes prediction is basically   
+P(class | features) * P(class) . Thus, if P(class) is large, then P(class | features) are not so important as it should be.
+The performance of Naive Bayes approach on balanced data is shown as confusion matrix below.
+
+![NB und](img/NB_und.png)
 
 #### b) Logistic Regression
+
+This method also shows much better performance, which is comparable with Deep Learning models.
+The results are shown below.
+
+![LR und](img/LR_und.png)
 
 ### 4. Deep Learning models
 
