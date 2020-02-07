@@ -87,4 +87,14 @@ BERT model was chosen as the most promising one in different Neural Language Pro
 
 ![lengths](img/lengths.png)
 
+BERT model was trained with 10 epochs on trained data (data was splitted to train and test with ratio 1:3). BERT performance was the best among other models. Results are shown on the picture below.
+
+![BERT](img/BERT.png)
+
 ### 5. Doc2Vec method
+
+The last method, which is actually the most suitable for such type 
+
+## 6. Results
+
+
