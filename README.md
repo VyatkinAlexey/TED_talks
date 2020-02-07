@@ -46,7 +46,15 @@ Data was splitted to train and test in realtion to 1:2 preserving classes ratio.
 
 #### a) Naive Bayes
 
+As the second class was highly unbalanced, Naive Bayes approach just chose it all the time. The confusion matrix for one out of 5 splits is shown below. Random prediction model is also shown to compare.
+
+![NB no und](img/NB_no_und.png)
+
 #### b) Logistic Regression
+
+Logistic regression is also suffering from unbalanced dataset thus its performance was not so good. Confusion matrix is shown below.
+
+![LR no und](img/LR_no_und.png)
 
 ### 4. Non-neural models with undersampling
 
