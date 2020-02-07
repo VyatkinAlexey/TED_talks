@@ -2,7 +2,7 @@
 
 ## Notebook 
 
-Jupyter notebook named **a** contains all the steps described below. Although, if you want to reproduce the results, please consider running the notebook using Google Colaboratory service, as some steps are computationally expensive. 
+Jupyter notebook named **TED_talks_classification.ipynb** contains all the steps described below. Although, if you want to reproduce the results, please consider running the notebook using Google Colaboratory service, as some steps are computationally expensive. 
 
 ## Data
 Data was collected from Kaggle, available by link: [data](https://www.kaggle.com/rounakbanik/ted-talks).
