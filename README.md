@@ -85,6 +85,6 @@ The results are shown below.
 
 BERT model was chosen as the most promising one in different Neural Language Processing problems. Note that features for all previous methods were based on TED talks transcripts. But in BERT case it was decided to use descriptions, as it is recommended to use at most **500** words for one object, but transcripts are much longer. The distribution of transcripts and descriptions length is shown below.
 
-
+![lengths](img/lengths.png)
 
 ### 5. Doc2Vec method
