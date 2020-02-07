@@ -1,5 +1,9 @@
 # TED talks classification
 
+## Notebook 
+
+Jupyter notebook named **a** contains all the steps described below. Although, if you want to reproduce the results, please consider running the notebook using Google Colaboratory service, as some steps are computationally expensive. 
+
 ## Data
 Data was collected from Kaggle, available by link: [data](https://www.kaggle.com/rounakbanik/ted-talks).
 
@@ -77,6 +81,10 @@ The results are shown below.
 
 ![LR und](img/LR_und.png)
 
-### 4. Deep Learning models
+### 4. Deep Learning model
+
+BERT model was chosen as the most promising one in different Neural Language Processing problems. Note that features for all previous methods were based on TED talks transcripts. But in BERT case it was decided to use descriptions, as it is recommended to use at most **500** words for one object, but transcripts are much longer. The distribution of transcripts and descriptions length is shown below.
+
+
 
 ### 5. Doc2Vec method
