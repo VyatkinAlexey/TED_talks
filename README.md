@@ -58,7 +58,14 @@ Logistic regression is also suffering from unbalanced dataset thus its performan
 
 ### 4. Non-neural models with undersampling
 
+As we saw in the previous section, models have not very good performance probably because of class imbalance. 
+Thus it was decided to downsample the data, i.e to choose randomly **200** objects from each class.
+The performance of the algorithms are presented below.
+
 #### a) Naive Bayes
+
+With balanced classes Naive Bayes approach works much better. The reason is the followng. Naive Bayes prediction is basically 
+$P(class | features) \cdot P(class)$.
 
 #### b) Logistic Regression
 
